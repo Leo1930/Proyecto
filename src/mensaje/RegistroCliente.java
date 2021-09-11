@@ -30,3 +30,6 @@ public class RegistroCliente {
     
     //si vale esto xd
 }
+
+xdxdd
+
