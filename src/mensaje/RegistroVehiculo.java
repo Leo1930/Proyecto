@@ -11,5 +11,7 @@ package mensaje;
  */
 public class RegistroVehiculo {
     
+   public RegistroVehiculo(){
+   }
     
 }
