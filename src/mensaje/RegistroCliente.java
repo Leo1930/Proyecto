@@ -26,4 +26,7 @@ public class RegistroCliente {
     this.cedula=id;
     this.telefono=contacto;
     }
+    
+    
+    //si vale esto xd
 }
