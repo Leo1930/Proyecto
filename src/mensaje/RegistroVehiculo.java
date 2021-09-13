@@ -16,7 +16,7 @@ public class RegistroVehiculo {
     private String modelo;
     private String placa;
     private int aniofabricacion;
-    ArrayList<RegistroCliente> cliente;
+    ArrayList<RegistroVehiculo> vehiculo;
     
    public RegistroVehiculo(){
    }
@@ -27,7 +27,7 @@ public class RegistroVehiculo {
        this.modelo=modelo;
        this.placa=placa;
        this.aniofabricacion=aniofabricacion;
-       cliente=new ArrayList<>();
+       vehiculo=new ArrayList<>();
    }
 
     public String getTipovehiculo() {
@@ -70,12 +70,12 @@ public class RegistroVehiculo {
         this.aniofabricacion = aniofabricacion;
     }
 
-    public ArrayList<RegistroCliente> getCliente() {
-        return cliente;
+    public ArrayList<RegistroVehiculo> getVehiculo() {
+        return vehiculo;
     }
 
-    public void setCliente(ArrayList<RegistroCliente> cliente) {
-        this.cliente = cliente;
+    public void setVehiculo(ArrayList<RegistroVehiculo> vehiculo) {
+        this.vehiculo = vehiculo;
     }
     //este tambien vele si sirve jaja
     
